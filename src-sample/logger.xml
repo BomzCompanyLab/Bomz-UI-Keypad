@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+<loggers observe="off">
+	<logger name="cmn" type="console" level="debug">
+		<param name="date">[yyyy-MM-dd HH:mm:ss]</param>
+	</logger>
+
+	<logger name="cmn" type="file" level="debug">
+			<param name="dir">./log/cmn.log</param>
+			<param name="date">[yyyy-MM-dd HH:mm:ss]</param>
+			<param name="size">50</param>
+		</logger>
+		
+</loggers>
