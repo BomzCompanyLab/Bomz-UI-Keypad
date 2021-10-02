@@ -1,0 +1,12 @@
+HBox{
+	-fx-pref-width : 833px;
+	-fx-alignment : center;
+}
+
+#numberBox{
+	-fx-pref-width : 300px;
+}
+
+#priceBox{
+	-fx-pref-width : 533px;
+}

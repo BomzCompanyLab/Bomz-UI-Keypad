@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox ?>
+<?import javafx.scene.layout.FlowPane ?>
+<?import javafx.scene.control.Button ?>
+<?import javafx.scene.control.Label ?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" 
+		fx:controller="kr.co.bomz.keypad.key.KoreaKeyController"
+		stylesheets="kr/co/bomz/keypad/key/Key.css">
+		
+		
+	<FlowPane>
+		<Button text="1" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="2" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="3" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="4" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="5" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="6" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="7" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="8" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="9" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="0" onAction="#handleButtonAction" focusTraversable="false"  />
+	</FlowPane>
+	
+	<FlowPane>
+		<Button text="ㅂ" onAction="#handleButtonAction" focusTraversable="false" />
+		<Button text="ㅈ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㄷ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㄱ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅅ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅛ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅕ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅑ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅐ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅔ" onAction="#handleButtonAction" focusTraversable="false"  />
+	</FlowPane>
+	
+	<FlowPane>
+		<Button text="ㅁ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㄴ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅇ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㄹ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅎ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅗ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅓ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅏ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅣ" onAction="#handleButtonAction" focusTraversable="false"  />
+	</FlowPane>
+	
+	<FlowPane>
+		<Button text="Shift" userData="shift" fx:id="upperLockShiftBt" onMouseClicked="#handleShiftAction" styleClass="span2" focusTraversable="false"  />
+		<Button text="ㅋ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅌ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅊ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅍ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅠ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅜ" onAction="#handleButtonAction" focusTraversable="false"  />
+		<Button text="ㅡ" onAction="#handleButtonAction" focusTraversable="false"  />
+	</FlowPane>
+		
+	<FlowPane>
+		<Label text="" styleClass="tmpMargin"/>
+	</FlowPane>
+	
+	<FlowPane>
+		<Button text="띄어쓰기" userData=" " onAction="#handleButtonAction" styleClass="span5" focusTraversable="false"  />
+		<Button text="삭제" userData="del" onAction="#handleButtonAction" styleClass="span4" focusTraversable="false"  />
+	</FlowPane>
+	
+</VBox>
+	
+
+	

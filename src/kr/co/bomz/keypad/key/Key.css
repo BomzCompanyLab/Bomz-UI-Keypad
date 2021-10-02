@@ -1,0 +1,65 @@
+VBox{
+	-fx-pref-width : 833px;
+	-fx-alignment : center;
+}
+
+VBox FlowPane{
+	-fx-hgap : 3px;
+	-fx-padding : 3px;
+	-fx-alignment : center;
+}
+
+VBox FlowPane Button{
+	-fx-min-width : 80px;
+	-fx-max-width : 80px;
+	-fx-min-height : 80px;
+	-fx-max-height : 80px;
+	-fx-alignment : center;
+	-fx-font-size : 20px;
+	
+	-fx-background-color : #FFFFFF;
+	-fx-border-color : #7F1619;
+	-fx-border-radius : 40px;
+	
+	-fx-background-insets : 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius : 40px;
+    -fx-effect : dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+VBox FlowPane Button:pressed{
+	-fx-background-color : #AD7D80;
+}
+
+GridPane Label{
+	-fx-min-width : 80px;
+	-fx-max-width : 80px;
+	-fx-min-height : 80px;
+	-fx-max-height : 80px;
+}
+
+.tmpMargin{
+	-fx-min-height : 19px;
+	-fx-max-height : 19px;
+}
+
+.span2{
+	-fx-min-width : 163px;
+	-fx-max-width : 163px;
+}
+
+.span3{
+	-fx-min-width : 246px;
+	-fx-max-width : 246px;
+}
+
+.span4{
+	-fx-min-width : 329px;
+	-fx-max-width : 329px;
+}
+
+.span5{
+	-fx-min-width : 412px;
+	-fx-max-width : 412px;
+}
+
+

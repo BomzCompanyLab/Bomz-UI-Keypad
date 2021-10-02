@@ -1,0 +1,18 @@
+
+.valueButtonPane{
+	-fx-alignment : center;
+	-fx-padding : 15px;
+	-fx-hgap : 80px;
+}
+
+.valuePane{
+	-fx-alignment : center;
+	-fx-padding : 15px;
+}
+
+#valueTf{
+	-fx-font-size : 45px;
+	-fx-pref-height : 80px;
+	-fx-pref-width : 320px;
+	-fx-alignment : center;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.BorderPane ?>
+<?import javafx.scene.layout.VBox ?>
+<?import javafx.scene.layout.FlowPane ?>
+
+<?import javafx.scene.control.TextField ?>
+<?import javafx.scene.control.Button ?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" 
+		fx:id="parent"
+		fx:controller="kr.co.bomz.keypad.KeyPadController"
+		stylesheets="kr/co/bomz/keypad/KeyPad.css,kr/co/bomz/keypad/NumberOnlyKeyPad.css">
+	
+	<top>
+		<VBox>
+			<FlowPane styleClass="valueButtonPane">
+				<Button text="취소" styleClass="keyPadTypeButton,valueBt" onAction="#handleCancel" focusTraversable="false" />
+				<Button text="입력" styleClass="keyPadTypeButton,valueBt" onAction="#handleSubmit" focusTraversable="false" />
+			</FlowPane>
+			<FlowPane styleClass="valuePane">
+				<TextField fx:id="valueTf"/>
+				<Button text="X" styleClass="clearBt" onAction="#handleClear" focusTraversable="false" />
+			</FlowPane>
+		</VBox>
+	</top>
+		
+</BorderPane>
+

@@ -1,0 +1,14 @@
+VBox{
+	-fx-pref-width : 340px;
+	-fx-alignment : center;
+}
+
+VBox FlowPane{
+	-fx-hgap : 30px;
+	-fx-padding : 10px;
+}
+
+.span3{
+	-fx-min-width : 300px;
+	-fx-max-width : 306px;
+}

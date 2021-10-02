@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.BorderPane ?>
+<?import javafx.scene.layout.VBox ?>
+<?import javafx.scene.layout.HBox ?>
+<?import javafx.scene.layout.FlowPane ?>
+
+<?import javafx.scene.control.TextField ?>
+<?import javafx.scene.control.Button ?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" 
+		fx:id="parent"
+		fx:controller="kr.co.bomz.keypad.KeyPadController"
+		stylesheets="kr/co/bomz/keypad/KeyPad.css">
+	
+	<top>
+		<FlowPane fx:id="valuePane">
+			<Button text="취소" styleClass="keyPadTypeButton,valueBt" onAction="#handleCancel" focusTraversable="false" />
+			<HBox>
+				<TextField fx:id="valueTf"/>
+				<Button text="X" styleClass="clearBt" onAction="#handleClear" focusTraversable="false" />
+			</HBox>
+			<Button text="입력" styleClass="keyPadTypeButton,valueBt" onAction="#handleSubmit" focusTraversable="false" />
+		</FlowPane>
+	</top>
+	
+	<right>
+		<VBox xmlns:fx="http://javafx.com/fxml/1" styleClass="rightMenuPane">
+			<Button text="한글" fx:id="koreanLanguageBt" onAction="#handleKoreaLanguageButtonAction" focusTraversable="false" styleClass="keyPadTypeButton"/>
+			<Button text="영어" fx:id="englishLanguageBt" onAction="#handleEnglishLanguageButtonAction" focusTraversable="false" styleClass="keyPadTypeButton"/>
+			<Button text="숫자" fx:id="numberBt" onAction="#handleNumberButtonAction" focusTraversable="false" styleClass="keyPadTypeButton"/>
+			<Button text="기호" fx:id="symbolBt" onAction="#handleSymbolButtonAction" focusTraversable="false" styleClass="keyPadTypeButton"/>
+		</VBox>
+	</right>
+	
+</BorderPane>
+

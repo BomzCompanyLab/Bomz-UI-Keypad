@@ -1,0 +1,80 @@
+BorderPane{
+	-fx-background-color : #FFFFFF;
+	-fx-padding : 10;
+	
+	-fx-border-color : #7F1619;
+	-fx-border-width : 5;
+	-fx-border-radius : 30;
+	
+	-fx-background-insets : 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius : 40;
+    -fx-effect : dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+.rightMenuPane{
+	-fx-padding : 0 0 0 40;	
+	-fx-spacing : 3;
+}
+
+.keyPadTypeButton{
+	-fx-pref-width : 100;
+	-fx-pref-height : 109;
+	-fx-alignment : center;
+	-fx-font-size : 20;
+	-fx-background-color : #FFFFFF;
+	-fx-border-color : #7F1619;
+	-fx-border-radius : 40;
+	
+	-fx-background-insets : 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius : 40;
+    -fx-effect : dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+.showKeyPadTypeButton{
+	-fx-background-color : #AD7D80;
+	-fx-border-radius : 40;
+}
+
+.disableKeyPadTypeButton{
+	-fx-background-color : #FFFFFF;
+	-fx-border-radius : 40;
+}
+
+#valuePane{
+	-fx-alignment : center;
+	-fx-padding : 35;
+	-fx-hgap : 80;
+}
+
+#valueTf{
+	-fx-font-size : 45;
+	-fx-pref-height : 80;
+	-fx-pref-width : 450;
+	-fx-alignment : center;
+}
+
+.clearBt{
+	-fx-pref-height : 81;
+	-fx-pref-width : 50;
+	-fx-background-color : #ffffff;
+	-fx-border-color : #7F1619;
+	
+	-fx-alignment : center;
+	-fx-font-size : 20;
+	
+	-fx-background-insets : 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-effect : dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+
+.clearBt:pressed{
+	-fx-background-color : #AD7D80;
+}
+
+.valueBt{
+	-fx-pref-height : 80;
+	-fx-pref-width : 120;
+}
+
+.valueBt:pressed{
+	-fx-background-color : #AD7D80;
+}
