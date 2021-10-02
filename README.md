@@ -9,5 +9,6 @@
    - <a href="https://youtu.be/hy6CllpQ7Yo" target="_blank">재생</a>
 
 **미리보기**
+
 <img src="https://img.youtube.com/vi/hy6CllpQ7Yo/sddefault.jpg">
-<img src="https://img.youtube.com/vi/hy6CllpQ7Yo/sddefault.jpg">
+<img src="https://img.youtube.com/vi/hy6CllpQ7Yo/1.jpg" width="640">
