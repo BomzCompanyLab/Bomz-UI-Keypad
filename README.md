@@ -11,4 +11,3 @@
 **미리보기**
 
 <img src="https://img.youtube.com/vi/hy6CllpQ7Yo/sddefault.jpg">
-<img src="https://img.youtube.com/vi/hy6CllpQ7Yo/1.jpg" width="640">
