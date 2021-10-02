@@ -5,5 +5,5 @@
 자바FX 기반의 한글/영문/숫자 가상 키패드
 
 
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/hy6CllpQ7Yo" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+**시연 영상 (유투부 재생)**
+   - <a href="https://youtu.be/hy6CllpQ7Yo" target="_blank">재생</a>
